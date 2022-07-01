@@ -9,18 +9,18 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.2.0",
-    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/plugin-graphql": "^4.2.0",
     "@strapi/plugin-i18n": "4.2.0",
+    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/strapi": "4.2.0",
     "better-sqlite3": "7.4.6"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "a710ecb7-b519-41f6-9251-da7cd22974be"
+    "uuid": "03994245-bb38-4724-8963-91a371cb9344"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",

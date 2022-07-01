@@ -7,9 +7,9 @@ import { ErrorPage } from '../pages/ErrorPage';
 const AppRoutes: React.FC = (): ReactElement => {
   return (
     <Routes>
-      <Route path={'/employees'} element={<EmployeesPage />}>
+      <Route path={'/employees'}>
+        <Route index element={<EmployeesPage />} />
         <Route path={':id'} element={<EmployeePage />} />
-        <Route element={<EmployeesPage />} />
       </Route>
       <Route index element={<HomePage />} />
       <Route path={'*'} element={<ErrorPage />} />

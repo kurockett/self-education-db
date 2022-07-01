@@ -12,19 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "surname": {
+      "pluginOptions": {},
       "type": "string",
       "required": true
     },
-    "surname": {
+    "name": {
+      "pluginOptions": {},
       "type": "string",
       "required": true
     },
     "age": {
+      "pluginOptions": {},
       "type": "integer",
-      "required": true
+      "required": true,
+      "min": 0,
+      "max": 100
     },
-    "main_programming_language": {
+    "main_pl": {
+      "pluginOptions": {},
       "type": "text",
       "required": true
     }
